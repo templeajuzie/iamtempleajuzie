@@ -4,28 +4,33 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Temple Ajuzie",
   initials: "TA",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://www.templeajuzie.online",
+  location: "Port Harcourt, Nigeria",
+  locationLink: "https://www.google.com/maps/place/Port+Harcourt",
   description:
-    "Experienced MERN Stack Developer with a strong background in cloud computing, certified as an AWS Cloud Practitioner. Passionate about creating robust and scalable applications.",
+    "Full-Stack & AI Engineer specializing in scalable cloud-native systems and multi-model AI integration.",
   summary:
-    "Founded [Enterbox](https://www.enterbox.app), a versatile platform supporting businesses with tools for web creation, hosting, form creation, email campaigns, AI integration, store management, and more. Built the platform from the ground up, handling product design, development, and team coordination to serve the needs of over 200 businesses within its first month.",
+    "Full-Stack & AI Engineer specializing in scalable cloud-native systems and multi-model AI integration. Built and co-leading Gennit, a multi-model AI platform integrating OpenAI, Anthropic, and open-source models. Experienced in backend architecture, distributed systems, and AWS infrastructure. Passionate about bridging production engineering with machine learning systems.",
   // "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl:
     "https://scontent-zrh1-1.xx.fbcdn.net/v/t39.30808-6/308443832_109109325295191_1674111835950351444_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeENRXIJ-jJ1K3t_eCIbMRWdz3iBgLaL9HfPeIGAtov0dxK86MNMwOPmVD5g0-a_dQdpvvgFL6HKCZDl6KREFLcx&_nc_ohc=3n2ER2TspfgQ7kNvgE3TxmB&_nc_zt=23&_nc_ht=scontent-zrh1-1.xx&_nc_gid=Aq_ffTslBDJDAYin_VulxKw&oh=00_AYDbE7FDW9-UfXMyJTeTEVaXh2GqyT25urlb08siQDc96Q&oe=67353D25",
   skills: [
+    "JavaScript",
+    "TypeScript",
     "React",
     "Next.js",
-    "Typescript",
     "Node.js",
-    "AWS",
-    "AZURE",
-    "Mongoose",
-    // "Docker",
-    // "Kubernetes",
-    // "Java",
-    // "C++",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL",
+    "AWS (EC2, S3, IAM, Lambda)",
+    "LLM integration",
+    "Model routing",
+    "API orchestration",
+    "RESTful API architecture",
+    "CI/CD",
+    "Docker",
+    "Git",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -37,7 +42,7 @@ export const DATA = {
   ],
   contact: {
     email: "templeajuzie@gmail.com",
-    tel: "+234-905-263-7046",
+    tel: "(+234) 905 263 7046",
     social: {
       GitHub: {
         name: "GitHub",
@@ -67,7 +72,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "www.gmail.com",
+        url: "mailto:templeajuzie@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -77,17 +82,17 @@ export const DATA = {
 
   work: [
     {
-      company: "Klipto Inc",
+      company: "Kliptolite Enterprise",
       href: "#",
       badges: [],
-      location: "9 Market road, Port Harcourt",
-      title: "Fullstack Engineer",
+      location: "Port Harcourt, Nigeria",
+      title: "Software Engineer",
       logoUrl:
         "https://lh3.googleusercontent.com/a/ACg8ocJnmc6IR2Yy7p1Q_EzGeCJ9APIfahM1Z6_SwcD_LwI4-Y5Krg_V=s96-c",
-      start: "Oct. 2022",
+      start: "Oct. 2024",
       end: "Present",
       description:
-        "As a Backend Engineer at Kliptolite Technologies, I focus on developing and maintaining server-side applications, ensuring optimal performance, scalability, and security. My role involves designing RESTful APIs, integrating with databases, and collaborating with frontend engineers to deliver complete solutions. Additionally, I am responsible for implementing CI/CD pipelines, monitoring backend services, and optimizing existing code for better efficiency.",
+        "Design and build scalable full-stack systems with strong focus on backend architecture, cloud integrations, and AI-enabled workflows. Develop and maintain high-performance server-side applications, design secure RESTful APIs, and integrate databases and third-party services to power production systems. Implement CI/CD pipelines, monitor cloud-hosted services, and optimize application performance for scalability and reliability.",
     },
     {
       company: "Kshop Limited",
@@ -97,43 +102,43 @@ export const DATA = {
       title: "Frontend Engineer",
       logoUrl:
         "https://pbs.twimg.com/profile_images/1479545028708118528/a2WFqnUb_x96.jpg",
-      start: "June 2019",
-      end: "Feb 2021",
+      start: "Jun 2022",
+      end: "Feb 2023",
       description:
-        "As a Frontend Engineer at Kshop Limited, I was responsible for creating engaging and interactive user interfaces with React. My role required a keen understanding of frontend technologies and a focus on delivering a seamless user experience. Below are some of the key aspects of my work at Kshop Limited",
+        "Built responsive and interactive user interfaces using React.js. Improved application performance and user experience. Implemented reusable frontend components to improve development speed.",
     },
     {
-      company: "LeadWise Consulting",
+      company: "Leadwise Consulting",
       href: "#",
       badges: [],
       location: "Virtual",
-      title: "Chief Technical Officer",
+      title: "Chief Technology Officer (Volunteer)",
       logoUrl:
         "https://pbs.twimg.com/profile_images/3368042704/3c8f962d72b8b73fbbd855d0ea583b4a_400x400.jpeg",
       start: "Sept 2021",
-      end: "Present",
+      end: "2024",
       description:
-        "I volunteered as the Chief Technology Officer at Lead-wise Consulting, where I was responsible for overseeing the web development, managing technical projects, and ensuring the smooth operation of IT systems.",
+        "Led web development strategy and technical project execution. Managed infrastructure decisions and system architecture planning.",
     },
     {
       company: "The Wisdom Place",
       href: "https://thewisdomplace.net/",
       badges: [],
-      location: "R2QG+8MW, Rumuomasi, Port Harcourt 500102, Rivers, Nigeria",
-      title: "Media Team Lead",
+      location: "Port Harcourt, Nigeria",
+      title: "Team Lead (Volunteer)",
       logoUrl:
         "data:image/jpeg;base64,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",
-      start: "Jan. 2020",
-      end: "Present",
+      start: "April 2016",
+      end: "June 2019",
       description:
-        "I led the media team at The Wisdom Place, a non-profit organisation.I was responsible for leading a team of 25 media professionals over four years. My leadership involved coordinating activities like live streaming, video editing, and multimedia production.",
+        "Led a 25-member multimedia team managing live streaming and digital production workflows. Managed digital workflows and technical project execution.",
     },
   ],
   education: [
     {
       school: "University of Port Harcourt",
       href: "https://www.uniport.edu.ng/",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      degree: "(B.SC) Computer Science",
       logoUrl:
         "data:image/jpeg;base64,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",
       start: "2017",
@@ -150,21 +155,45 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Gennit",
+      href: "https://www.gennit.online",
+      dates: "Jan 2024 - Present",
+      active: true,
+      description:
+        "Architected a multi-model AI platform integrating OpenAI, Anthropic, and open-source LLMs to dynamically route queries based on user requirements, cost, and latency. Implemented Retrieval-Augmented Generation (RAG) pipelines enabling users to query personalized document knowledge bases with high accuracy.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "AWS (S3, EC2)",
+        "OpenAI API",
+        "Anthropic API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.gennit.online",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/gennit.mp4",
+    },
+    {
       title: "Enterbox",
       href: "https://www.enterbox.app",
-      dates: "Nov 4 - Presentt",
+      dates: "Jan 2023 - Dec 2023",
       active: true,
       description:
-        "At Enterbox, we believe every business deserves a powerful, custom-built digital platform. We provide the tools to help you create, manage, and scale your online presence with ease. From startups to established enterprises, our platform is designed to empower growth at every stage.",
+        "Architected a drag-and-drop website and email builder with dynamic component rendering. Built a modular UI block system allowing real-time editing and preview. Designed backend template storage and rendering engine for customizable web/email layouts.",
       technologies: [
         "Next.js",
         "Typescript",
-        "Express Js",
-        "Mongo DB",
-        "TailwindCSS",
-        "Open Ai",
-        "Azure",
-        "Klip Ai",
+        "Node.js",
+        "MongoDB",
+        "Cloud-based deployment",
       ],
       links: [
         {
@@ -174,102 +203,31 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://firebasestorage.googleapis.com/v0/b/temple-ajuzie.appspot.com/o/Web%20Images%2FEnterbox%20preview.mp4?alt=media&token=4f72a3fc-96fe-4a36-919d-4279d95fbbc4",
+      video: "/enterbox.mp4",
     },
     {
-      title: "ABC Networks 24",
-      href: "https://www.abcnetworks24.com",
-      dates: "Oct 2023 - Present",
+      title: "Esthington",
+      href: "#",
+      dates: "2023",
       active: true,
       description:
-        "Designed, developed, and implemented a comprehensive News Platform, CRM, and Ecommerce solution, enabling seamless content management, customer relationship tracking, and online sales. Integrated advanced user engagement features, automated marketing workflows, and payment gateways.",
-      technologies: [
-        "Typescript",
-        "Cloudinary",
-        "Mongo DB",
-        "Next.js",
-        "TailwindCSS",
-        "Stripe",
-        "Node JS",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.abcnetworks24.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/abcnetworks247/abc/tree/main/client",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
+        "Designed and built a full-featured real estate platform with an integrated wallet system for secure in-app transactions. Integrated payment APIs with transaction logging and audit trail mechanisms. Designed role-based authentication for buyers, sellers, and agents.",
+      technologies: ["React", "Node.js", "Express", "AWS", "Payment APIs"],
+      links: [],
       image: "",
-      video:
-        "https://firebasestorage.googleapis.com/v0/b/temple-ajuzie.appspot.com/o/Web%20Images%2FScreen%20Recording%202024-11-10%20at%209.58.55%E2%80%AFAM.mov?alt=media&token=e548772c-c9a5-4ae5-9874-33004c484009",
+      video: "",
     },
     {
-      title: "ABC Admin",
-      href: "https://www.abc-admin-gold.vercel.app",
-      dates: "April 2023 - September 2023",
+      title: "Proliferate",
+      href: "#",
+      dates: "2022",
       active: true,
       description:
-        "Designed Admin Panel, developed, and implemented a comprehensive News Platform, CRM, and Ecommerce solution, enabling seamless content management, customer relationship tracking, and online sales. Integrated advanced user engagement features, automated marketing workflows, and payment gateways.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Node Js",
-        "Mongo Db",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Stripe",
-        "Cloudflare",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://abc-admin-gold.vercel.app/auth/signin",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
+        "Built an online virtual classroom platform with course management and live session integration. Implemented student enrollment, attendance tracking, and assignment workflows. Structured database schema for scalable multi-course management.",
+      technologies: ["React", "Node.js", "MongoDB", "WebRTC / Zoom API"],
+      links: [],
       image: "",
-      video:
-        "https://firebasestorage.googleapis.com/v0/b/temple-ajuzie.appspot.com/o/Web%20Images%2FScreen%20Recording%202024-11-10%20at%2011.42.01%E2%80%AFAM.mov?alt=media&token=5439b1f9-5789-49d8-a117-335ef820bf20",
-    },
-    {
-      title: "Enterbox Admin",
-      href: "https://www.enterbox.app",
-      dates: "Nov 2024 - Present",
-      active: true,
-      description:
-        "Developed the admin web app, Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models, upload manager, and a 360 CMS System",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.enterbox.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://firebasestorage.googleapis.com/v0/b/temple-ajuzie.appspot.com/o/Web%20Images%2FScreen%20Recording%202024-11-10%20at%2012.32.32%E2%80%AFPM.mov?alt=media&token=13b19cd2-662c-41b7-982c-787c0bf936a9",
+      video: "",
     },
   ],
   // hackathons: [
