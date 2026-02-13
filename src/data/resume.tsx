@@ -122,8 +122,7 @@ export const DATA = {
       badges: [],
       location: "Port Harcourt, Nigeria",
       title: "Team Lead (Volunteer)",
-      logoUrl:
-        "https://pbs.twimg.com/profile_images/3368042704/3c8f962d72b8b73fbbd855d0ea583b4a_400x400.jpeg",
+      logoUrl: "https://i1.sndcdn.com/avatars-000771078445-b9l7hc-t240x240.jpg",
       start: "April 2016",
       end: "June 2019",
       description:
@@ -136,7 +135,7 @@ export const DATA = {
       href: "https://www.uniport.edu.ng/",
       degree: "(B.SC) Computer Science",
       logoUrl:
-        "https://pbs.twimg.com/profile_images/3368042704/3c8f962d72b8b73fbbd855d0ea583b4a_400x400.jpeg",
+        "https://myschoolnewsng.wordpress.com/wp-content/uploads/2018/08/uniport.jpeg",
       start: "2017",
       end: "2023",
     },
