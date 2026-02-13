@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+import { ArrowUp, Calendar, CircleArrowOutUpRightIcon } from "lucide-react";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -17,27 +19,65 @@ export default function Page() {
       <section id="hero" className="mt-20 lg:max-lg:t-0">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
-            <div className="flex-col flex flex-1 space-y-1.5 mt-10">
+            <div className="flex flex-col space-y-10">
+              <div className="flex flex-row items-center justify-center">
+                <BlurFade delay={BLUR_FADE_DELAY}>
+                  <Avatar className="size-40 rounded-2xl">
+                    <AvatarImage
+                      alt={DATA.name}
+                      src={DATA.avatarUrl}
+                      className="object-cover"
+                    />
+                    <AvatarFallback>{DATA.initials}</AvatarFallback>
+                  </Avatar>
+                </BlurFade>
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <BlurFadeText
+                  delay={BLUR_FADE_DELAY}
+                  className="text-3xl font-bold tracking-tighter sm:text-2xl xl:text-3xl/none"
+                  yOffset={8}
+                  text={`Hi, I'm ${DATA.name}`}
+                />
+                <div className="flex flex-row items-center gap-x-2">
+                  <p>Founder, Gennit AI.</p>
+                  <div className="">
+                    <Link
+                      className="text-blue-500 flex flex-row items-center gap-x-2"
+                      href="https://www.gennit.online"
+                    >
+                      Try Gennit
+                      <CircleArrowOutUpRightIcon />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-2xl xl:text-3xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name}`}
-              />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
+                className="max-w-[600px] text-base"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
             </div>
-            <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
-            </BlurFade>
           </div>
         </div>
+      </section>
+      <section id="book-meeting">
+        <BlurFade delay={BLUR_FADE_DELAY * 2}>
+          <div className="mx-auto w-full max-w-2xl">
+            <Link
+              href="https://cal.com/temple-ajuzie-3k0lc1/30min"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button className="rounded-lg px-4 py-4 text-lg font-base shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2">
+                <Calendar className="size-5" />
+                Book Meeting
+              </Button>
+            </Link>
+          </div>
+        </BlurFade>
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
