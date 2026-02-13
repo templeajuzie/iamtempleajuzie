@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { ContactButtons } from "@/components/contact-buttons";
 import {
   ArrowUp,
   Calendar,
@@ -27,9 +28,6 @@ export default function Page() {
           <div className="gap-2 flex justify-between">
             <div className="flex flex-col space-y-10">
               <div className="flex flex-row items-center justify-center">
-
-                
-                
                 <BlurFade delay={BLUR_FADE_DELAY}>
                   <Avatar className="size-40 rounded-2xl">
                     <AvatarImage
@@ -74,37 +72,7 @@ export default function Page() {
       </section>
       <section id="book-meeting">
         <BlurFade delay={BLUR_FADE_DELAY * 2}>
-          <div className="mx-auto w-full max-w-2xl flex flex-wrap gap-4">
-            <Link
-              href="https://cal.com/temple-ajuzie-3k0lc1/30min"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Button className="rounded-lg px-4 py-4 text-sm font-base shadow-sm hover:shadow-xl transition-all duration-300 flex items-center gap-2">
-                <Calendar className="size-5" />
-                Book Meeting
-              </Button>
-            </Link>
-            <Link href="/cv.pdf" target="_blank" rel="noreferrer">
-              <Button
-                variant="outline"
-                className="rounded-lg px-4 py-4 text-sm font-base shadow-sm hover:shadow-lg transition-all duration-300 flex items-center gap-2"
-              >
-                <Download className="size-5" />
-                Download CV
-              </Button>
-            </Link>
-            
-            <Link href={`mailto:${DATA.contact.email}`}>
-              <Button
-                variant="outline"
-                className="rounded-lg px-4 py-4 text-sm font-base shadow-sm hover:shadow-lg transition-all duration-300 flex items-center gap-2"
-              >
-                <Mail className="size-5" />
-                Send Email
-              </Button>
-            </Link>
-          </div>
+          <ContactButtons />
         </BlurFade>
       </section>
       <section id="about">

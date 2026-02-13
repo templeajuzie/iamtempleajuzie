@@ -6,6 +6,7 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -75,6 +76,7 @@ export default function RootLayout({
               ease={50}
               refresh
             />
+            <Toaster position="top-center" richColors />
           </TooltipProvider>
         </ThemeProvider>
         <style>{`
