@@ -18,7 +18,6 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
-//new
 
 export default function Page() {
   return (
