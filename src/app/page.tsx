@@ -1,12 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ContactButtons } from "@/components/contact-buttons";
-import {
-  ArrowUp,
-  Calendar,
-  CircleArrowOutUpRightIcon,
-  Download,
-  Mail,
-} from "lucide-react";
+import { ArrowUp, CircleArrowOutUpRightIcon } from "lucide-react";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -40,26 +34,28 @@ export default function Page() {
                 </BlurFade>
               </div>
 
-              <div className="flex flex-col gap-2">
-                <BlurFadeText
-                  delay={BLUR_FADE_DELAY}
-                  className="text-3xl font-bold tracking-tighter sm:text-2xl xl:text-3xl/none"
-                  yOffset={8}
-                  text={`Hi, I'm ${DATA.name}`}
-                />
-                <div className="flex flex-row items-center gap-x-2">
-                  <p>Founder, Gennit AI.</p>
-                  <div className="">
-                    <Link
-                      className="text-blue-500 flex flex-row items-center gap-x-2"
-                      href="https://www.gennit.online"
-                    >
-                      Try Gennit
-                      <CircleArrowOutUpRightIcon />
-                    </Link>
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <div className="flex flex-col gap-2">
+                  <BlurFadeText
+                    delay={BLUR_FADE_DELAY}
+                    className="text-3xl font-bold tracking-tighter sm:text-2xl xl:text-3xl/none"
+                    yOffset={8}
+                    text={`Hi, I'm ${DATA.name}`}
+                  />
+                  <div className="flex flex-row items-center gap-x-2">
+                    <p>Founder, Gennit AI.</p>
+                    <div className="">
+                      <Link
+                        className="text-blue-500 flex flex-row items-center gap-x-2"
+                        href="https://www.gennit.online"
+                      >
+                        Try Gennit
+                        <CircleArrowOutUpRightIcon />
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </BlurFade>
 
               <BlurFadeText
                 className="max-w-[600px] text-base"

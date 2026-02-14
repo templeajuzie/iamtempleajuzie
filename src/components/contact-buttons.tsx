@@ -3,17 +3,9 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Download, Mail } from "lucide-react";
 import Link from "next/link";
-import { toast } from "sonner";
 import { DATA } from "@/data/resume";
 
 export function ContactButtons() {
-  const handleSendEmail = (e: React.MouseEvent) => {
-    // Copy to clipboard
-    navigator.clipboard.writeText(DATA.contact.email);
-    // Show toast
-    toast.success("Email copied to clipboard!");
-  };
-
   return (
     <div className="mx-auto w-full max-w-2xl flex flex-wrap gap-4">
       <Link
@@ -36,7 +28,7 @@ export function ContactButtons() {
         </Button>
       </Link>
 
-      <Link href={`mailto:${DATA.contact.email}`} onClick={handleSendEmail}>
+      <Link href={`mailto:${DATA.contact.email}`}>
         <Button
           variant="outline"
           className="rounded-lg px-4 py-4 text-sm font-base shadow-sm hover:shadow-lg transition-all duration-300 flex items-center gap-2"
