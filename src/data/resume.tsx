@@ -144,7 +144,7 @@ export const DATA = {
     {
       title: "Gennit",
       href: "https://www.gennit.online",
-      dates: "Jan 2024 - Present",
+      dates: "Jan 2026 - Present",
       active: true,
       description:
         "Architected a multi-model AI platform integrating OpenAI, Anthropic, and open-source LLMs to dynamically route queries based on user requirements, cost, and latency. Implemented Retrieval-Augmented Generation (RAG) pipelines enabling users to query personalized document knowledge bases with high accuracy.",
