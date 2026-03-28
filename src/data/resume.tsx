@@ -8,7 +8,7 @@ export const DATA = {
   location: "Port Harcourt, Nigeria",
   locationLink: "https://www.google.com/maps/place/Port+Harcourt",
   description:
-    "Full-Stack & AI Engineer specializing in scalable cloud-native systems and multi-model AI integration. Built and co-leading Gennit, a multi-model AI platform integrating OpenAI, Anthropic, and open-source models. Experienced in backend architecture, distributed systems, and AWS infrastructure. Passionate about bridging production engineering with machine learning systems.",
+    "Building Scalable systems and sharing what I learn. Tech | Creativity | Growth.",
   summary:
     "Full-Stack & AI Engineer specializing in scalable cloud-native systems and multi-model AI integration. Built and co-leading Gennit, a multi-model AI platform integrating OpenAI, Anthropic, and open-source models. Experienced in backend architecture, distributed systems, and AWS infrastructure. Passionate about bridging production engineering with machine learning systems.",
   avatarUrl:
