@@ -47,7 +47,7 @@ export default function Page() {
                     <div className="">
                       <Link
                         className="text-blue-500 flex flex-row items-center gap-x-2"
-                        href="https://www.gennit.online"
+                        href="https://www.trygenit.com"
                       >
                         Try Gennit
                         <CircleArrowOutUpRightIcon />
